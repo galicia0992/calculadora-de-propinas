@@ -1,0 +1,104 @@
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: "Space Mono";
+}
+
+.backCard{
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    height: 65%;
+    border-radius: 20px;
+}
+
+.resultCard{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    width: 50%;
+}
+
+.textTipTotal{
+    color: white;
+    font-weight: bolder;
+}
+.textTipTotal:hover{
+    color: hsl(172, 67%, 45%);
+}
+.textTotal{
+    color: white;
+    font-weight: bolder;
+}
+.textTotal:hover{
+    color: hsl(183, 100%, 15%);
+    font-weight: bolder;
+}
+
+.textPal{
+    color: hsl(186, 14%, 43%);
+    font-size: small;
+    font-weight: bold;
+}
+
+.numbersAmountTotal{
+    color: hsl(172, 67%, 45%);
+}
+
+.buttonColor{
+    background-color: hsl(172, 67%, 45%);
+}
+.buttonColor:hover{
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+.inputBill{
+    border-radius: 5px;
+    border-style:solid;
+    background-color: hsl(189, 41%, 97%);
+    width: 90%;
+    height: 80%;
+}
+.inputBill:focus{
+    box-shadow: none;
+    border-style: solid;
+    border: 2px solid hsl(172, 67%, 45%);
+    border-radius: 5px;
+}
+.buttonTip{
+    width: 100px;
+    height: 40px;
+    background-color: hsl(183, 100%, 15%);
+}
+.containerCustom{
+    width: 45%;
+}
+.inputCustom{
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(189, 41%, 97%);
+    width: 79%;
+    height: 45%;
+}
+.inputCustom:focus{
+    box-shadow: 0 0 0px ;
+    border: 2px solid hsl(172, 67%, 45%);
+}
+.buttonTip:hover{
+    background-color: hsl(185, 41%, 84%);
+    border: none;
+}
+.inputBillDanger{
+    background-color: hsl(189, 41%, 97%);
+    width: 90%;
+    height: 80%;
+    box-shadow: none;
+    border: 1.5px solid hsl(0, 94%, 48%);
+    border-radius: 5px;
+}
+.inputBillDanger:focus{
+    box-shadow: none;
+    border: 1.5px solid hsl(0, 94%, 48%);
+    border-radius: 5px;
+}
+.error{
+    color: red;
+    font-size: small;
+}
